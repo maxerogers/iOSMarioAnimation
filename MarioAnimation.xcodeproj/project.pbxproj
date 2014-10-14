@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4624A719E86B0300F28159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4624A619E86B0300F28159 /* main.m */; };
+		AF4624AA19E86B0300F28159 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4624A919E86B0300F28159 /* AppDelegate.m */; };
+		AF4624AD19E86B0300F28159 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4624AC19E86B0300F28159 /* ViewController.m */; };
+		AF4624B019E86B0300F28159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4624AE19E86B0300F28159 /* Main.storyboard */; };
+		AF4624B219E86B0300F28159 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4624B119E86B0300F28159 /* Images.xcassets */; };
+		AF4624B519E86B0300F28159 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4624B319E86B0300F28159 /* LaunchScreen.xib */; };
+		AF4624C119E86B0300F28159 /* MarioAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4624C019E86B0300F28159 /* MarioAnimationTests.m */; };
+		AF4624CC19E86DF700F28159 /* mario_standing.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624CB19E86DF700F28159 /* mario_standing.png */; };
+		AF4624D019E86FD800F28159 /* mario_swimming_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624CD19E86FD800F28159 /* mario_swimming_0.png */; };
+		AF4624D119E86FD800F28159 /* mario_swimming_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624CE19E86FD800F28159 /* mario_swimming_1.png */; };
+		AF4624D219E86FD800F28159 /* mario_swimming_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624CF19E86FD800F28159 /* mario_swimming_2.png */; };
+		AF4624D619E877F100F28159 /* luigi_swimming_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624D319E877F100F28159 /* luigi_swimming_0.png */; };
+		AF4624D719E877F100F28159 /* luigi_swimming_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624D419E877F100F28159 /* luigi_swimming_1.png */; };
+		AF4624D819E877F100F28159 /* luigi_swimming_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624D519E877F100F28159 /* luigi_swimming_2.png */; };
+		AF4624DD19E87DF200F28159 /* water_background_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624D919E87DF200F28159 /* water_background_1.png */; };
+		AF4624DE19E87DF200F28159 /* water_background_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624DA19E87DF200F28159 /* water_background_2.png */; };
+		AF4624DF19E87DF200F28159 /* water_background_3.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624DB19E87DF200F28159 /* water_background_3.png */; };
+		AF4624E019E87DF200F28159 /* water_background_4.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4624DC19E87DF200F28159 /* water_background_4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF4624BB19E86B0300F28159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF46249919E86B0300F28159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4624A019E86B0300F28159;
+			remoteInfo = MarioAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF4624A119E86B0300F28159 /* MarioAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4624A519E86B0300F28159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4624A619E86B0300F28159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF4624A819E86B0300F28159 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF4624A919E86B0300F28159 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF4624AB19E86B0300F28159 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF4624AC19E86B0300F28159 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF4624AF19E86B0300F28159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4624B119E86B0300F28159 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF4624B419E86B0300F28159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF4624BA19E86B0300F28159 /* MarioAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4624BF19E86B0300F28159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4624C019E86B0300F28159 /* MarioAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarioAnimationTests.m; sourceTree = "<group>"; };
+		AF4624CB19E86DF700F28159 /* mario_standing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mario_standing.png; path = MarioAnimation/backup_images/mario_standing.png; sourceTree = "<group>"; };
+		AF4624CD19E86FD800F28159 /* mario_swimming_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mario_swimming_0.png; path = MarioAnimation/backup_images/mario_swimming_0.png; sourceTree = "<group>"; };
+		AF4624CE19E86FD800F28159 /* mario_swimming_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mario_swimming_1.png; path = MarioAnimation/backup_images/mario_swimming_1.png; sourceTree = "<group>"; };
+		AF4624CF19E86FD800F28159 /* mario_swimming_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mario_swimming_2.png; path = MarioAnimation/backup_images/mario_swimming_2.png; sourceTree = "<group>"; };
+		AF4624D319E877F100F28159 /* luigi_swimming_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = luigi_swimming_0.png; path = MarioAnimation/backup_images/luigi_swimming_0.png; sourceTree = "<group>"; };
+		AF4624D419E877F100F28159 /* luigi_swimming_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = luigi_swimming_1.png; path = MarioAnimation/backup_images/luigi_swimming_1.png; sourceTree = "<group>"; };
+		AF4624D519E877F100F28159 /* luigi_swimming_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = luigi_swimming_2.png; path = MarioAnimation/backup_images/luigi_swimming_2.png; sourceTree = "<group>"; };
+		AF4624D919E87DF200F28159 /* water_background_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = water_background_1.png; path = MarioAnimation/backup_images/water_background_1.png; sourceTree = "<group>"; };
+		AF4624DA19E87DF200F28159 /* water_background_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = water_background_2.png; path = MarioAnimation/backup_images/water_background_2.png; sourceTree = "<group>"; };
+		AF4624DB19E87DF200F28159 /* water_background_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = water_background_3.png; path = MarioAnimation/backup_images/water_background_3.png; sourceTree = "<group>"; };
+		AF4624DC19E87DF200F28159 /* water_background_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = water_background_4.png; path = MarioAnimation/backup_images/water_background_4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF46249E19E86B0300F28159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4624B719E86B0300F28159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF46249819E86B0300F28159 = {
+			isa = PBXGroup;
+			children = (
+				AF4624CA19E86CA100F28159 /* Resources */,
+				AF4624A319E86B0300F28159 /* MarioAnimation */,
+				AF4624BD19E86B0300F28159 /* MarioAnimationTests */,
+				AF4624A219E86B0300F28159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4624A219E86B0300F28159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4624A119E86B0300F28159 /* MarioAnimation.app */,
+				AF4624BA19E86B0300F28159 /* MarioAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4624A319E86B0300F28159 /* MarioAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AF4624A819E86B0300F28159 /* AppDelegate.h */,
+				AF4624A919E86B0300F28159 /* AppDelegate.m */,
+				AF4624AB19E86B0300F28159 /* ViewController.h */,
+				AF4624AC19E86B0300F28159 /* ViewController.m */,
+				AF4624AE19E86B0300F28159 /* Main.storyboard */,
+				AF4624B119E86B0300F28159 /* Images.xcassets */,
+				AF4624B319E86B0300F28159 /* LaunchScreen.xib */,
+				AF4624A419E86B0300F28159 /* Supporting Files */,
+			);
+			path = MarioAnimation;
+			sourceTree = "<group>";
+		};
+		AF4624A419E86B0300F28159 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4624A519E86B0300F28159 /* Info.plist */,
+				AF4624A619E86B0300F28159 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF4624BD19E86B0300F28159 /* MarioAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4624C019E86B0300F28159 /* MarioAnimationTests.m */,
+				AF4624BE19E86B0300F28159 /* Supporting Files */,
+			);
+			path = MarioAnimationTests;
+			sourceTree = "<group>";
+		};
+		AF4624BE19E86B0300F28159 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4624BF19E86B0300F28159 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF4624CA19E86CA100F28159 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF4624D919E87DF200F28159 /* water_background_1.png */,
+				AF4624DA19E87DF200F28159 /* water_background_2.png */,
+				AF4624DB19E87DF200F28159 /* water_background_3.png */,
+				AF4624DC19E87DF200F28159 /* water_background_4.png */,
+				AF4624D319E877F100F28159 /* luigi_swimming_0.png */,
+				AF4624D419E877F100F28159 /* luigi_swimming_1.png */,
+				AF4624D519E877F100F28159 /* luigi_swimming_2.png */,
+				AF4624CD19E86FD800F28159 /* mario_swimming_0.png */,
+				AF4624CE19E86FD800F28159 /* mario_swimming_1.png */,
+				AF4624CF19E86FD800F28159 /* mario_swimming_2.png */,
+				AF4624CB19E86DF700F28159 /* mario_standing.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4624A019E86B0300F28159 /* MarioAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4624C419E86B0300F28159 /* Build configuration list for PBXNativeTarget "MarioAnimation" */;
+			buildPhases = (
+				AF46249D19E86B0300F28159 /* Sources */,
+				AF46249E19E86B0300F28159 /* Frameworks */,
+				AF46249F19E86B0300F28159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioAnimation;
+			productName = MarioAnimation;
+			productReference = AF4624A119E86B0300F28159 /* MarioAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF4624B919E86B0300F28159 /* MarioAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4624C719E86B0300F28159 /* Build configuration list for PBXNativeTarget "MarioAnimationTests" */;
+			buildPhases = (
+				AF4624B619E86B0300F28159 /* Sources */,
+				AF4624B719E86B0300F28159 /* Frameworks */,
+				AF4624B819E86B0300F28159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4624BC19E86B0300F28159 /* PBXTargetDependency */,
+			);
+			name = MarioAnimationTests;
+			productName = MarioAnimationTests;
+			productReference = AF4624BA19E86B0300F28159 /* MarioAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF46249919E86B0300F28159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = maxrogers;
+				TargetAttributes = {
+					AF4624A019E86B0300F28159 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					AF4624B919E86B0300F28159 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = AF4624A019E86B0300F28159;
+					};
+				};
+			};
+			buildConfigurationList = AF46249C19E86B0300F28159 /* Build configuration list for PBXProject "MarioAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF46249819E86B0300F28159;
+			productRefGroup = AF4624A219E86B0300F28159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4624A019E86B0300F28159 /* MarioAnimation */,
+				AF4624B919E86B0300F28159 /* MarioAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF46249F19E86B0300F28159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4624D219E86FD800F28159 /* mario_swimming_2.png in Resources */,
+				AF4624D019E86FD800F28159 /* mario_swimming_0.png in Resources */,
+				AF4624DD19E87DF200F28159 /* water_background_1.png in Resources */,
+				AF4624DF19E87DF200F28159 /* water_background_3.png in Resources */,
+				AF4624D719E877F100F28159 /* luigi_swimming_1.png in Resources */,
+				AF4624DE19E87DF200F28159 /* water_background_2.png in Resources */,
+				AF4624E019E87DF200F28159 /* water_background_4.png in Resources */,
+				AF4624D619E877F100F28159 /* luigi_swimming_0.png in Resources */,
+				AF4624CC19E86DF700F28159 /* mario_standing.png in Resources */,
+				AF4624B019E86B0300F28159 /* Main.storyboard in Resources */,
+				AF4624D819E877F100F28159 /* luigi_swimming_2.png in Resources */,
+				AF4624D119E86FD800F28159 /* mario_swimming_1.png in Resources */,
+				AF4624B519E86B0300F28159 /* LaunchScreen.xib in Resources */,
+				AF4624B219E86B0300F28159 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4624B819E86B0300F28159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF46249D19E86B0300F28159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4624AD19E86B0300F28159 /* ViewController.m in Sources */,
+				AF4624AA19E86B0300F28159 /* AppDelegate.m in Sources */,
+				AF4624A719E86B0300F28159 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4624B619E86B0300F28159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4624C119E86B0300F28159 /* MarioAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF4624BC19E86B0300F28159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4624A019E86B0300F28159 /* MarioAnimation */;
+			targetProxy = AF4624BB19E86B0300F28159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF4624AE19E86B0300F28159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4624AF19E86B0300F28159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4624B319E86B0300F28159 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4624B419E86B0300F28159 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4624C219E86B0300F28159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF4624C319E86B0300F28159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4624C519E86B0300F28159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarioAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF4624C619E86B0300F28159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarioAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF4624C819E86B0300F28159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarioAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioAnimation.app/MarioAnimation";
+			};
+			name = Debug;
+		};
+		AF4624C919E86B0300F28159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MarioAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioAnimation.app/MarioAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF46249C19E86B0300F28159 /* Build configuration list for PBXProject "MarioAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4624C219E86B0300F28159 /* Debug */,
+				AF4624C319E86B0300F28159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4624C419E86B0300F28159 /* Build configuration list for PBXNativeTarget "MarioAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4624C519E86B0300F28159 /* Debug */,
+				AF4624C619E86B0300F28159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4624C719E86B0300F28159 /* Build configuration list for PBXNativeTarget "MarioAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4624C819E86B0300F28159 /* Debug */,
+				AF4624C919E86B0300F28159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF46249919E86B0300F28159 /* Project object */;
+}
