@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF4624A019E86B0300F28159"
-               BuildableName = "MarioAnimation.app"
+               BuildableName = "MRogers_anim.app"
                BlueprintName = "MarioAnimation"
                ReferencedContainer = "container:MarioAnimation.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF4624B919E86B0300F28159"
-               BuildableName = "MarioAnimationTests.xctest"
+               BuildableName = "MRogers_animTests.xctest"
                BlueprintName = "MarioAnimationTests"
                ReferencedContainer = "container:MarioAnimation.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF4624B919E86B0300F28159"
-               BuildableName = "MarioAnimationTests.xctest"
+               BuildableName = "MRogers_animTests.xctest"
                BlueprintName = "MarioAnimationTests"
                ReferencedContainer = "container:MarioAnimation.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF4624A019E86B0300F28159"
-            BuildableName = "MarioAnimation.app"
+            BuildableName = "MRogers_anim.app"
             BlueprintName = "MarioAnimation"
             ReferencedContainer = "container:MarioAnimation.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF4624A019E86B0300F28159"
-            BuildableName = "MarioAnimation.app"
+            BuildableName = "MRogers_anim.app"
             BlueprintName = "MarioAnimation"
             ReferencedContainer = "container:MarioAnimation.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF4624A019E86B0300F28159"
-            BuildableName = "MarioAnimation.app"
+            BuildableName = "MRogers_anim.app"
             BlueprintName = "MarioAnimation"
             ReferencedContainer = "container:MarioAnimation.xcodeproj">
          </BuildableReference>
